@@ -1,30 +1,29 @@
-Golden Seagull;;;;;;;
-ID;Bestellnummer;Gericht;Beschreibung;Info;Preis;kcal;
-1;100;BBQ Blumenkohlflügel;Knusprige Blumenkohlröschen, umhüllt von einem reichhaltigen und rauchigen BBQ-Teig mit einem Hauch von Gewürzen. Mit Sauerrahmsauce beträufelt, mit einer Limettenspalte garniert und mit Rucola verfeinert.;Vegan;4,79 €;276;Vorspeise
-2;101;Suppe des Tages;Wärmende Suppe mit gehacktem Schnittlauch bestreut und mit einem halben Baguette und Butter serviert. FRAGEN SIE UNS NACH DEM HEUTIGEN GESCHMACK: Tomate, Lauch & Kartoffel;Vegan;4,29 €;350;Vorspeise
-3;102;Mozzarella & Cheddar Bites;Frischkäse, Mozzarella & Cheddar-Käse beißen in einer rustikalen Krume. Serviert mit Tomatensalsa und abgerundet mit Rucola. Achtung, heißer Käse kann sickern!;Vegetraisch;4,79 €;413;Vorspeise
-4;103;Garnelen-Cocktail;Saftige Garnelen mit Marie-Rose-Sauce, serviert mit zerkleinertem Eisbergsalat, Gurke, Zitronenspalte und Mehrkorn-Bloomer-Brot und -Butter.;Vegetarisch;4,79 €;530;Vorspeise
-5;104;Knusprige Streifen nach Hühnchenart ;Köstliche vegane Tender nach Hühnchenart, beträufelt mit Sauerrahmsauce und mit Rucola verfeinert.;Vegan;4,79 €;611;Vorspeise
-6;105;Hähnchen-Flügel;Eine Portion marinierter Hähnchenflügel zum Teilen, in einer Sauce Ihrer Wahl geschwenkt und mit gehacktem Schnittlauch bestreut.;Normal;7,99 €;1343;Vorspeise
-7;200;Rindfleisch-Lasagne;Reichhaltiges Rindfleischragú mit Nudeln und einer Cheddar-Käsesauce. Belegt mit Mozzarella und reifem Cheddar-Käse und serviert mit Knoblauchbrot und einer Salatgarnitur.;Normal;9,79 €;778;Hauptgericht
-8;201;Handgebackene Fish & Chips;Großes Fischfilet im eigenen Haus mit unserem berühmten Marston's Pedigree Bierteig paniert. Serviert mit Pommes frites und Tartarsauce.;Normal;11,29 €;1449;Hauptgericht
-9;202;Ganze Schwänze von panierten Scampi ;12 saftige ganze Schwänze von Whitby-Scampi, serviert mit Pommes frites und Tartarsauce.;Normal;9,79 €;1120;Hauptgericht
-10;203;Cheddar, Lauch & Kartoffelkuchen ;Eine reichhaltige, reife Cheddar-Käsesauce mit Lauch und Kartoffelwürfeln, umhüllt von Mürbeteig und gekrönt mit einem Blätterteigdeckel. Serviert mit Pommes, Erbsen und Soße.;Vegan;10,29 €;1364;Hauptgericht
-11;204;Gemüse-Curry nach thailändischer Art;Ein wärmendes Gemüse-Curry nach thailändischer Art aus veganer roter Currysauce, Süßkartoffel, Sojabohnen, roter Paprika, Zuckerschoten und Bambussprossen. Serviert mit Basmatireis mit Kokosnussgeschmack und Crackern.;Vegan;9,79 €;614;Hauptgericht
-12;205;Steak & Ale Pie;Unser klassischer Steak & Ale Pie. Ein Mürbeteigboden, gefüllt mit zarten Rindfleischstücken in einer reichhaltigen Ale-Soße, belegt mit Blätterteig, bestreut mit gemahlenem schwarzem Pfeffer. Serviert mit Pommes, Erbsen und Soße.;Normal;11,29 €;1332;Hauptgericht
-13;304;Sherry Trifle Käsekuchen;Weicher Vanillebiskuit mit Himbeersauce und Käsekuchen mit Puddinggeschmack. Abgerundet mit Schlagsahne, weißen Schokoladenflocken und gefriergetrockneten Himbeerstücken. Serviert mit Himbeersauce und kaltem Pudding;Vegan;4,99 €;451;Dessert
-14;305;Rocky Road Eisbecher;Eis mit Schokoladen- und Vanillegeschmack, geschichtet mit weichen Schokoladen-Brownie-Stücken, Marshmallows und beträufelt mit Schokoladensauce und spritziger Sahne. Abgerundet mit einer Schokoladenflocke.;Vegan;4,99 €;96;Dessert
-15;306;Banoffee Schokoladen-Tarte;Eine reichhaltige, dunkle Schokoladentorte mit Bananengeschmack und einem Toffee-Karamell auf einer köstlichen Dattel-Nuss-Basis. Serviert mit Eis mit Vanillegeschmack und beträufelt mit Schokoladensauce.;Vegan;4,99 €;519;Dessert
-16;307;Apfel-Crumble;Stückige Apfelscheiben, gekocht mit dunklem Zucker und Zimt. Mit knusprigen goldenen Sirup-Streuseln belegt, mit Toffee-Sauce beträufelt und mit Vanillepudding serviert.;Vegan;4,99 €;635;Dessert
-17;308;Klebriger Toffee-Pudding;Ein weicher und süßer Toffee-Biskuit, der mit Dattelstücken übersät und mit einer reichhaltigen Toffee-Sauce überzogen ist.;Vegan;4,99 €;519;Dessert
-18;309;Marmelade Biskuitpudding;Ein weicher Vanillebiskuitpudding, der in süßer Erdbeermarmelade erstickt und warm mit Vanillepudding serviert wird.;Vegan;4,99 €;526;Dessert
-19;400;APEROL - SPRITZ;;;9,49 €;;Getränke
-20;401;MARTINI BIANCO;;;8,29 €;;Getränke
-21;402;WEIZENBIER;;;5,99 €;;Getränke
-22;403;Minneralswasser;;;2,99 €;;Getränke
-23;404;Kaffee;;;2,99 €;;Getränke
-24;404;Cappucchino;;;2,99 €;;Getränke
-25;406;Espresso;;;3,99 €;;Getränke
-26;407;Affogato al Caffe;;;4,99 €;;Getränke
-27;408;Sauvignon blanc;;;8,99 €;;Getränke
-28;409;Coka Cola;;;2,99 €;;Getränke
+SpeiseID;Gericht;Beschreibung;Info;Preis;kcal;
+100;BBQ Blumenkohlflügel;Knusprige Blumenkohlröschen, umhüllt von einem reichhaltigen und rauchigen BBQ-Teig mit einem Hauch von Gewürzen. Mit Sauerrahmsauce beträufelt, mit einer Limettenspalte garniert und mit Rucola verfeinert.;Vegan;4,79 €;276;Vorspeise
+101;Suppe des Tages;Wärmende Suppe mit gehacktem Schnittlauch bestreut und mit einem halben Baguette und Butter serviert. FRAGEN SIE UNS NACH DEM HEUTIGEN GESCHMACK: Tomate, Lauch & Kartoffel;Vegan;4,29 €;350;Vorspeise
+102;Mozzarella & Cheddar Bites;Frischkäse, Mozzarella & Cheddar-Käse beißen in einer rustikalen Krume. Serviert mit Tomatensalsa und abgerundet mit Rucola. Achtung, heißer Käse kann sickern!;Vegetraisch;4,79 €;413;Vorspeise
+103;Garnelen-Cocktail;Saftige Garnelen mit Marie-Rose-Sauce, serviert mit zerkleinertem Eisbergsalat, Gurke, Zitronenspalte und Mehrkorn-Bloomer-Brot und -Butter.;Vegetarisch;4,79 €;530;Vorspeise
+104;Knusprige Streifen nach Hühnchenart ;Köstliche vegane Tender nach Hühnchenart, beträufelt mit Sauerrahmsauce und mit Rucola verfeinert.;Vegan;4,79 €;611;Vorspeise
+105;Hähnchen-Flügel;Eine Portion marinierter Hähnchenflügel zum Teilen, in einer Sauce Ihrer Wahl geschwenkt und mit gehacktem Schnittlauch bestreut.;Normal;7,99 €;1343;Vorspeise
+200;Rindfleisch-Lasagne;Reichhaltiges Rindfleischragú mit Nudeln und einer Cheddar-Käsesauce. Belegt mit Mozzarella und reifem Cheddar-Käse und serviert mit Knoblauchbrot und einer Salatgarnitur.;Normal;9,79 €;778;Hauptgericht
+201;Handgebackene Fish & Chips;Großes Fischfilet im eigenen Haus mit unserem berühmten Marston's Pedigree Bierteig paniert. Serviert mit Pommes frites und Tartarsauce.;Normal;11,29 €;1449;Hauptgericht
+202;Ganze Schwänze von panierten Scampi ;12 saftige ganze Schwänze von Whitby-Scampi, serviert mit Pommes frites und Tartarsauce.;Normal;9,79 €;1120;Hauptgericht
+203;Cheddar, Lauch & Kartoffelkuchen ;Eine reichhaltige, reife Cheddar-Käsesauce mit Lauch und Kartoffelwürfeln, umhüllt von Mürbeteig und gekrönt mit einem Blätterteigdeckel. Serviert mit Pommes, Erbsen und Soße.;Vegan;10,29 €;1364;Hauptgericht
+204;Gemüse-Curry nach thailändischer Art;Ein wärmendes Gemüse-Curry nach thailändischer Art aus veganer roter Currysauce, Süßkartoffel, Sojabohnen, roter Paprika, Zuckerschoten und Bambussprossen. Serviert mit Basmatireis mit Kokosnussgeschmack und Crackern.;Vegan;9,79 €;614;Hauptgericht
+205;Steak & Ale Pie;Unser klassischer Steak & Ale Pie. Ein Mürbeteigboden, gefüllt mit zarten Rindfleischstücken in einer reichhaltigen Ale-Soße, belegt mit Blätterteig, bestreut mit gemahlenem schwarzem Pfeffer. Serviert mit Pommes, Erbsen und Soße.;Normal;11,29 €;1332;Hauptgericht
+304;Sherry Trifle Käsekuchen;Weicher Vanillebiskuit mit Himbeersauce und Käsekuchen mit Puddinggeschmack. Abgerundet mit Schlagsahne, weißen Schokoladenflocken und gefriergetrockneten Himbeerstücken. Serviert mit Himbeersauce und kaltem Pudding;Vegan;4,99 €;451;Dessert
+305;Rocky Road Eisbecher;Eis mit Schokoladen- und Vanillegeschmack, geschichtet mit weichen Schokoladen-Brownie-Stücken, Marshmallows und beträufelt mit Schokoladensauce und spritziger Sahne. Abgerundet mit einer Schokoladenflocke.;Vegan;4,99 €;96;Dessert
+306;Banoffee Schokoladen-Tarte;Eine reichhaltige, dunkle Schokoladentorte mit Bananengeschmack und einem Toffee-Karamell auf einer köstlichen Dattel-Nuss-Basis. Serviert mit Eis mit Vanillegeschmack und beträufelt mit Schokoladensauce.;Vegan;4,99 €;519;Dessert
+307;Apfel-Crumble;Stückige Apfelscheiben, gekocht mit dunklem Zucker und Zimt. Mit knusprigen goldenen Sirup-Streuseln belegt, mit Toffee-Sauce beträufelt und mit Vanillepudding serviert.;Vegan;4,99 €;635;Dessert
+308;Klebriger Toffee-Pudding;Ein weicher und süßer Toffee-Biskuit, der mit Dattelstücken übersät und mit einer reichhaltigen Toffee-Sauce überzogen ist.;Vegan;4,99 €;519;Dessert
+309;Marmelade Biskuitpudding;Ein weicher Vanillebiskuitpudding, der in süßer Erdbeermarmelade erstickt und warm mit Vanillepudding serviert wird.;Vegan;4,99 €;526;Dessert
+400;APEROL - SPRITZ;;;9,49 €;;Getränke
+401;MARTINI BIANCO;;;8,29 €;;Getränke
+402;WEIZENBIER;;;5,99 €;;Getränke
+403;Minneralswasser;;;2,99 €;;Getränke
+404;Kaffee;;;2,99 €;;Getränke
+404;Cappucchino;;;2,99 €;;Getränke
+406;Espresso;;;3,99 €;;Getränke
+407;Affogato al Caffe;;;4,99 €;;Getränke
+408;Sauvignon blanc;;;8,99 €;;Getränke
+409;Coka Cola;;;2,99 €;;Getränke
