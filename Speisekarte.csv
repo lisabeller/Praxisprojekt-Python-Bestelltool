@@ -1,29 +1,29 @@
 Speise_ID;Gericht;Beschreibung;Info;Preis;kcal;Kategorie
-100;BBQ Blumenkohlflügel;Knusprige Blumenkohlröschen, umhüllt von einem reichhaltigen und rauchigen BBQ-Teig mit einem Hauch von Gewürzen. Mit Sauerrahmsauce beträufelt, mit einer Limettenspalte garniert und mit Rucola verfeinert.;Vegan;4,79 €;276;Vorspeise
-101;Suppe des Tages;Wärmende Suppe mit gehacktem Schnittlauch bestreut und mit einem halben Baguette und Butter serviert. FRAGEN SIE UNS NACH DEM HEUTIGEN GESCHMACK: Tomate, Lauch & Kartoffel;Vegan;4,29 €;350;Vorspeise
-102;Mozzarella & Cheddar Bites;Frischkäse, Mozzarella & Cheddar-Käse beißen in einer rustikalen Krume. Serviert mit Tomatensalsa und abgerundet mit Rucola. Achtung, heißer Käse kann sickern!;Vegetraisch;4,79 €;413;Vorspeise
-103;Garnelen-Cocktail;Saftige Garnelen mit Marie-Rose-Sauce, serviert mit zerkleinertem Eisbergsalat, Gurke, Zitronenspalte und Mehrkorn-Bloomer-Brot und -Butter.;Vegetarisch;4,79 €;530;Vorspeise
-104;Knusprige Streifen nach Hühnchenart ;Köstliche vegane Tender nach Hühnchenart, beträufelt mit Sauerrahmsauce und mit Rucola verfeinert.;Vegan;4,79 €;611;Vorspeise
-105;Hähnchen-Flügel;Eine Portion marinierter Hähnchenflügel zum Teilen, in einer Sauce Ihrer Wahl geschwenkt und mit gehacktem Schnittlauch bestreut.;Normal;7,99 €;1343;Vorspeise
-200;Rindfleisch-Lasagne;Reichhaltiges Rindfleischragú mit Nudeln und einer Cheddar-Käsesauce. Belegt mit Mozzarella und reifem Cheddar-Käse und serviert mit Knoblauchbrot und einer Salatgarnitur.;Normal;9,79 €;778;Hauptgericht
-201;Handgebackene Fish & Chips;Großes Fischfilet im eigenen Haus mit unserem berühmten Marston's Pedigree Bierteig paniert. Serviert mit Pommes frites und Tartarsauce.;Normal;11,29 €;1449;Hauptgericht
-202;Ganze Schwänze von panierten Scampi ;12 saftige ganze Schwänze von Whitby-Scampi, serviert mit Pommes frites und Tartarsauce.;Normal;9,79 €;1120;Hauptgericht
-203;Cheddar, Lauch & Kartoffelkuchen ;Eine reichhaltige, reife Cheddar-Käsesauce mit Lauch und Kartoffelwürfeln, umhüllt von Mürbeteig und gekrönt mit einem Blätterteigdeckel. Serviert mit Pommes, Erbsen und Soße.;Vegan;10,29 €;1364;Hauptgericht
-204;Gemüse-Curry nach thailändischer Art;Ein wärmendes Gemüse-Curry nach thailändischer Art aus veganer roter Currysauce, Süßkartoffel, Sojabohnen, roter Paprika, Zuckerschoten und Bambussprossen. Serviert mit Basmatireis mit Kokosnussgeschmack und Crackern.;Vegan;9,79 €;614;Hauptgericht
-205;Steak & Ale Pie;Unser klassischer Steak & Ale Pie. Ein Mürbeteigboden, gefüllt mit zarten Rindfleischstücken in einer reichhaltigen Ale-Soße, belegt mit Blätterteig, bestreut mit gemahlenem schwarzem Pfeffer. Serviert mit Pommes, Erbsen und Soße.;Normal;11,29 €;1332;Hauptgericht
-300;Sherry Trifle Käsekuchen;Weicher Vanillebiskuit mit Himbeersauce und Käsekuchen mit Puddinggeschmack. Abgerundet mit Schlagsahne, weißen Schokoladenflocken und gefriergetrockneten Himbeerstücken. Serviert mit Himbeersauce und kaltem Pudding;Vegan;4,99 €;451;Dessert
-301;Rocky Road Eisbecher;Eis mit Schokoladen- und Vanillegeschmack, geschichtet mit weichen Schokoladen-Brownie-Stücken, Marshmallows und beträufelt mit Schokoladensauce und spritziger Sahne. Abgerundet mit einer Schokoladenflocke.;Vegan;4,99 €;96;Dessert
-302;Banoffee Schokoladen-Tarte;Eine reichhaltige, dunkle Schokoladentorte mit Bananengeschmack und einem Toffee-Karamell auf einer köstlichen Dattel-Nuss-Basis. Serviert mit Eis mit Vanillegeschmack und beträufelt mit Schokoladensauce.;Vegan;4,99 €;519;Dessert
-303;Apfel-Crumble;Stückige Apfelscheiben, gekocht mit dunklem Zucker und Zimt. Mit knusprigen goldenen Sirup-Streuseln belegt, mit Toffee-Sauce beträufelt und mit Vanillepudding serviert.;Vegan;4,99 €;635;Dessert
-304;Klebriger Toffee-Pudding;Ein weicher und süßer Toffee-Biskuit, der mit Dattelstücken übersät und mit einer reichhaltigen Toffee-Sauce überzogen ist.;Vegan;4,99 €;519;Dessert
-305;Marmelade Biskuitpudding;Ein weicher Vanillebiskuitpudding, der in süßer Erdbeermarmelade erstickt und warm mit Vanillepudding serviert wird.;Vegan;4,99 €;526;Dessert
-400;APEROL - SPRITZ;Der Aperol Spritz ist ein wunderbar leichter Aperitif-Drink;Normal;9,49 €;360;Getränke
-401;MARTINI BIANCO;Der Martini ist ein klassischer Cocktail. Als trockener, herber und stark alkoholischer Shortdrink zählt er zu den Aperitifs und besteht in der Regel aus Gin und trockenem Wermut ;Normal;8,29 €;125;Getränke
-402;WEIZENBIER;Weizenbier ist ein obergäriges Bier, das mit einem hohen Anteil  an Weizenmalz im Verhältnis zu der Menge an gemälzter Gerste gebraut wird.;Normal;5,99 €;43;Getränke
-403;Mineralswasser;Als Mineralwasser wird natürliches, aus einer Quelle gewonnenes und mit Mineralstoffen angereichertes Wasser bezeichnet;Vegan;2,99 €;0;Getränke
-404;Kaffee;Als Kaffee bezeichnet man ein koffeinhaltiges Aufgussgetränk, das aus gerösteten und gemahlenen Kaffeebohnen hergestellt wird.;Normal;2,99 €;0;Getränke
-404;Cappuccino;Cappuccino ist ein italienisches Kaffeegetränk, das aus einem Espresso und heißem Milchschaum zubereitet wird.;Normal;2,99 €;84;Getränke
-405;Espresso;Espresso   ist eine aus Mailand stammende Kaffeezubereitungsart, aus gerösteten Kaffeebohnen gepresst wird.;Vegan;3,99 €;9;Getränke
-406;Affogato al Caffe;Affrogato al Caffe ist ein Dessert der italienischen Küche, das aus Espresso mit Vanilleeis besteht.;Normal;4,99 €;75;Getränke
-407;Sauvignon blanc;Sauvignon Blanc ist eine Weißweinsorte mit weltweiter Verbreitung. Die Rebsorte gehört zu den 20 am häufigsten angebauten Rebsorten der Weinwelt;Vegan;8,99 €;121;Getränke
-408;Coca Cola;The Coca-Cola Company ist ein US-amerikanischer Getränkehersteller mit Schwerpunkt auf Erfrischungsgetränke und Sitz in Atlanta, Georgia in den USA;Normal;2,99 €;180;Getränke
+100;BBQ Blumenkohlfluegel;Knusprige Blumenkohlroeschen, umhuellt von einem reichhaltigen und rauchigen BBQ-Teig mit einem Hauch von Gewuerzen. Mit Sauerrahmsauce betraeufelt, mit einer Limettenspalte garniert und mit Rucola verfeinert.;Vegan;4.79;276;Vorspeise
+101;Suppe des Tages;Waermende Suppe mit gehacktem Schnittlauch bestreut und mit einem halben Baguette und Butter serviert.;Vegan;4.29;350;Vorspeise
+102;Mozzarella & Cheddar Bites;Frischkaese, Mozzarella & Cheddar-Kaese beißen in einer rustikalen Krume. Serviert mit Tomatensalsa und abgerundet mit Rucola. Achtung, heißer Kaese kann sickern!;Vegetraisch;4.79;413;Vorspeise
+103;Garnelen-Cocktail;Saftige Garnelen mit Marie-Rose-Sauce, serviert mit zerkleinertem Eisbergsalat, Gurke, Zitronenspalte und Mehrkorn-Bloomer-Brot und -Butter.;Vegetarisch;4.79;530;Vorspeise
+104;Knusprige Streifen nach Huehnchenart ;Koestliche vegane Tender nach Huehnchenart, betraeufelt mit Sauerrahmsauce und mit Rucola verfeinert.;Vegan;4.79;611;Vorspeise
+105;Haehnchen-Fluegel;Eine Portion marinierter Haehnchenfluegel zum Teilen, in einer Sauce Ihrer Wahl geschwenkt und mit gehacktem Schnittlauch bestreut.;Normal;7.99;1343;Vorspeise
+200;Rindfleisch-Lasagne;Reichhaltiges Rindfleischragu mit Nudeln und einer Cheddar-Kaesesauce. Belegt mit Mozzarella und reifem Cheddar-Kaese und serviert mit Knoblauchbrot und einer Salatgarnitur.;Normal;9.79;778;Hauptgericht
+201;Handgebackene Fish & Chips;Großes Fischfilet im eigenen Haus mit unserem beruehmten Marstons Pedigree Bierteig paniert. Serviert mit Pommes frites und Tartarsauce.;Normal;11.29;1449;Hauptgericht
+202;Ganze Schwaenze von panierten Scampi ;12 saftige ganze Schwaenze von Whitby-Scampi, serviert mit Pommes frites und Tartarsauce.;Normal;9.79;1120;Hauptgericht
+203;Cheddar, Lauch & Kartoffelkuchen ;Eine reichhaltige, reife Cheddar-Kaesesauce mit Lauch und Kartoffelwuerfeln, umhuellt von Muerbeteig und gekroent mit einem Blaetterteigdeckel. Serviert mit Pommes, Erbsen und Soße.;Vegan;10.29;1364;Hauptgericht
+204;Gemuese-Curry nach thailaendischer Art;Ein waermendes Gemuese-Curry nach thailaendischer Art aus veganer roter Currysauce, Sueßkartoffel, Sojabohnen, roter Paprika, Zuckerschoten und Bambussprossen. Serviert mit Basmatireis mit Kokosnussgeschmack und Crackern.;Vegan;9.79;614;Hauptgericht
+205;Steak & Ale Pie;Unser klassischer Steak & Ale Pie. Ein Muerbeteigboden, gefuellt mit zarten Rindfleischstuecken in einer reichhaltigen Ale-Soße, belegt mit Blaetterteig, bestreut mit gemahlenem schwarzem Pfeffer. Serviert mit Pommes, Erbsen und Soße.;Normal;11.29;1332;Hauptgericht
+300;Sherry Trifle Kaesekuchen;Weicher Vanillebiskuit mit Himbeersauce und Kaesekuchen mit Puddinggeschmack. Abgerundet mit Schlagsahne, weißen Schokoladenflocken und gefriergetrockneten Himbeerstücken. Serviert mit Himbeersauce und kaltem Pudding;Vegan;4.99;451;Dessert
+301;Rocky Road Eisbecher;Eis mit Schokoladen- und Vanillegeschmack, geschichtet mit weichen Schokoladen-Brownie-Stuecken, Marshmallows und betraeufelt mit Schokoladensauce und spritziger Sahne. Abgerundet mit einer Schokoladenflocke.;Vegan;4.99;96;Dessert
+302;Banoffee Schokoladen-Tarte;Eine reichhaltige, dunkle Schokoladentorte mit Bananengeschmack und einem Toffee-Karamell auf einer koestlichen Dattel-Nuss-Basis. Serviert mit Eis mit Vanillegeschmack und betraeufelt mit Schokoladensauce.;Vegan;4.99;519;Dessert
+303;Apfel-Crumble;Stueckige Apfelscheiben, gekocht mit dunklem Zucker und Zimt. Mit knusprigen goldenen Sirup-Streuseln belegt, mit Toffee-Sauce betraeufelt und mit Vanillepudding serviert.;Vegan;4.99;635;Dessert
+304;Klebriger Toffee-Pudding;Ein weicher und sueßer Toffee-Biskuit, der mit Dattelstuecken übersaet und mit einer reichhaltigen Toffee-Sauce ueberzogen ist.;Vegan;4.99;519;Dessert
+305;Marmelade Biskuitpudding;Ein weicher Vanillebiskuitpudding, der in sueßer Erdbeermarmelade erstickt und warm mit Vanillepudding serviert wird.;Vegan;4.99;526;Dessert
+400;APEROL - SPRITZ;Der Aperol Spritz ist ein wunderbar leichter Aperitif-Drink;Normal;9.49;360;Getraenke
+401;MARTINI BIANCO;Der Martini ist ein klassischer Cocktail. Als trockener, herber und stark alkoholischer Shortdrink zaehlt er zu den Aperitifs und besteht in der Regel aus Gin und trockenem Wermut ;Normal;8.29;125;Getraenke
+402;WEIZENBIER;Weizenbier ist ein obergaeriges Bier, das mit einem hohen Anteil  an Weizenmalz im Verhaeltnis zu der Menge an gemaelzter Gerste gebraut wird.;Normal;5.99;43;Getraenke
+403;Mineralswasser;Als Mineralwasser wird natuerliches, aus einer Quelle gewonnenes und mit Mineralstoffen angereichertes Wasser bezeichnet;Vegan;2.99;0;Getraenke
+404;Kaffee;Als Kaffee bezeichnet man ein koffeinhaltiges Aufgussgetraenk, das aus geroesteten und gemahlenen Kaffeebohnen hergestellt wird.;Normal;2.99;0;Getraenke
+404;Cappuccino;Cappuccino ist ein italienisches Kaffeegetraenk, das aus einem Espresso und heißem Milchschaum zubereitet wird.;Normal;2.99;84;Getraenke
+405;Espresso;Espresso   ist eine aus Mailand stammende Kaffeezubereitungsart, aus geroesteten Kaffeebohnen gepresst wird.;Vegan;3.99;9;Getraenke
+406;Affogato al Caffe;Affrogato al Caffe ist ein Dessert der italienischen Kueche, das aus Espresso mit Vanilleeis besteht.;Normal;4.99;75;Getraenke
+407;Sauvignon blanc;Sauvignon Blanc ist eine Weißweinsorte mit weltweiter Verbreitung. Die Rebsorte gehoert zu den 20 am haeufigsten angebauten Rebsorten der Weinwelt;Vegan;8.99;121;Getraenke
+408;Coca Cola;The Coca-Cola Company ist ein US-amerikanischer Getraenkehersteller mit Schwerpunkt auf Erfrischungsgetraenke und Sitz in Atlanta, Georgia in den USA;Normal;2.99;180;Getraenke
