@@ -28,9 +28,15 @@ def neue_bestellung(tischnummer, speise_mengen, bestellungen_df, status="offen")
         else:
             bestellung_id = 1
         datum = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        neue_bestellungen.append([bestellung_id, datum, tischnummer, speise_id, menge, status])
+        neue_bestellungen.append([bestellung_id, 
+                                datum, 
+                                tischnummer, 
+                                speise_id, 
+                                menge, 
+                                status])
     
-    neue_bestellungen_df = pd.DataFrame(neue_bestellungen, columns=bestellungen_df.columns)
+    neue_bestellungen_df = pd.DataFrame(neue_bestellungen, 
+                                        columns=bestellungen_df.columns)
     bestellungen_df = pd.concat([bestellungen_df, neue_bestellungen_df], ignore_index=True)
     
     return bestellungen_df
@@ -42,7 +48,7 @@ def streamlit_app():
     Definiert den Ablauf der App, sammelt die Eingaben und aktualisiert das DataFrame.
     
     """
-    global bestellungen_df
+    #global bestellungen_df
 
     # Leeres Dictionary zum Sammeln der Informationen
     # mit st.session_state wird jeder Zwischenstand gespeichert, 
@@ -50,13 +56,23 @@ def streamlit_app():
     if "speise_mengen" not in st.session_state:
         st.session_state.speise_mengen = {}
     
+    # Initialisiere bestellungen_df im Session State
+    if "bestellungen_df" not in st.session_state:
+        st.session_state.bestellungen_df = pd.DataFrame(columns=[
+            "BestellID", 
+            "Datum", 
+            "Tischnummer", 
+            "SpeiseID", 
+            "Menge", 
+            "Status"])
+
     # Titel für Speisekarte
-    st.title("Restaurant Bestellsystem")
+    st.title("Restaurant golden seagull")
 
     # Speisekarte anzeigen
     st.subheader("Speisekarte")
     st.dataframe(speisekarte)
-    
+
     st.subheader("Bestellung aufgeben")
 
     # Tischnummer mit selectbox
@@ -85,25 +101,27 @@ def streamlit_app():
     # Überprüfung ob "speise_mengen" leer ist
     if st.button("Bestellung aufgeben"):
         if st.session_state.speise_mengen:
-            bestellungen_df = neue_bestellung(tischnummer, st.session_state.speise_mengen, bestellungen_df, bestellstatus)
+            st.session_state.bestellungen_df = neue_bestellung(
+                tischnummer, 
+                st.session_state.speise_mengen, 
+                st.session_state.bestellungen_df, 
+                bestellstatus)
             st.write("Bestellung erfolgreich aufgenommen!")
             # Leeren des dic: speise_mengen nach jeder Betellung
             st.session_state.speise_mengen = {}
         else:
             st.write("Bitte mindestens eine Speise hinzufügen.")
     
-    st.subheader("Aktuelle Bestellungen")
-    st.dataframe(bestellungen_df)
+    st.subheader("Alle Bestellungen")
+    st.dataframe(st.session_state.bestellungen_df)
 
 if __name__ == "__main__":
     streamlit_app()
 
-st.dataframe(bestellungen_df)
 
-# Aktuell werden die Auswahlfelder angezeigt, 
-# aber die aufgegebenen Bestellungen noch nicht angezeigt 
-# und in das aktuelle DataFrame hinzugefügt
+# Aktuell werden in das DataFrame bestellungen_df noch nicht alle Bestellungen gesammelt
 
-# Ausführen des Skripts mit `streamlit run "Pfad"` in Kommandozeile (Miniconda)
+# Ausführen des Skripts in Kommandozeile (Miniconda)
+# cd "C:\Users\Admin\Git\Praxisprojekt-Python-Bestelltool"
 # conda activate DataCraft
 # streamlit run  "C:\Users\Admin\Git\Praxisprojekt-Python-Bestelltool\Bestelltool_streamlit.py"
