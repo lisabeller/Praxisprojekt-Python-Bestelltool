@@ -1,1 +1,5 @@
 BestellID,Datum,Tischnummer,SpeiseID,Menge,Status
+1,2024-06-06 11:17:54,14,300,2,storno
+1,2024-06-06 11:17:54,14,304,2,storno
+2,2024-06-06 11:20:43,5,300,1,bezahlt
+2,2024-06-06 11:20:43,5,301,3,bezahlt
