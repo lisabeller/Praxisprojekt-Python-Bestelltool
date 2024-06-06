@@ -140,15 +140,15 @@ def streamlit_app():
             "Status"])
 
     # Titel für Speisekarte
-    st.title("Bestelltool 'Restaurant golden seagull'")
+    st.title("Restaurant Bestelltool")
 
-    # Logo des Restuarant
-    image = Image.open("Logo.png")
+    # Speisekarte des Restuarant
+    image = Image.open("golden_seagull_Speisekarte.png")
     st.image(image)
 
     # Speisekarte anzeigen
-    st.subheader("Speisekarte")
-    st.dataframe(speisekarte)
+    #st.subheader("Speisekarte")
+    #st.dataframe(speisekarte)
 
     st.subheader("Bestellung aufgeben")
 
@@ -195,30 +195,31 @@ def streamlit_app():
     st.subheader("Bestellung stornieren")
 
     vorhandene_bestellIDs = st.session_state.bestellungen_df["BestellID"].unique().tolist()
-    ausgewählte_bestellID = st.selectbox("BestellID", options=vorhandene_bestellIDs)
+    ausgewählte_bestellID_st = st.selectbox("BestellID", options=vorhandene_bestellIDs, key="stornieren")
 
     # Auswahl der BestellID über Dropdown
     if st.button("Bestellung stornieren"):
-        if ausgewählte_bestellID:
-            st.session_state.bestellungen_df = bestellung_storno(ausgewählte_bestellID, 
+        if ausgewählte_bestellID_st:
+            st.session_state.bestellungen_df = bestellung_storno(ausgewählte_bestellID_st, 
                                                 st.session_state.bestellungen_df)
-            st.write(f"Bestellung {ausgewählte_bestellID} wurde storniert.")
+            st.write(f"Bestellung {ausgewählte_bestellID_st} wurde storniert.")
         else:
             st.write("Bitte eine gültige BestellID auswählen.")
 
     st.subheader("Rechnung erstellen")
-
+    ausgewählte_bestellID_re = st.selectbox("BestellID", options=vorhandene_bestellIDs, key="rechungerstellen")
     # Auswahl der BestellID über Dropdown
     if st.button("Rechnung anzeigen"):
-        if ausgewählte_bestellID:
-            rechnung_df = bestellung_bezahlen(ausgewählte_bestellID, st.session_state.bestellungen_df, speisekarte)
-            st.write("Rechnung für BestellID: ", ausgewählte_bestellID)
+        if ausgewählte_bestellID_re:
+            rechnung_df = bestellung_bezahlen(ausgewählte_bestellID_re, st.session_state.bestellungen_df, speisekarte)
+            st.write("Rechnung für BestellID: ", ausgewählte_bestellID_re)
             st.dataframe(rechnung_df)
         else:
             st.write("Bitte eine gültige BestellID auswählen.")
     
     # Bestellliste als CSV abspeichern
-    if st.button("Bestellliste speichern"):
+    st.subheader("Bestellliste speichern")
+    if st.button("speichern"):
         dateiname = bestellungen_speichern()
         st.write(f"Die aktuelle Bestelliste wurde erfolgreich unter {dateiname} abgespeichert")
 
