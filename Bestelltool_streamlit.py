@@ -1,14 +1,15 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+from PIL import Image
 
-# Speisekarte laden
+# SPEISEKARTE LADEN
 speisekarte = pd.read_csv("Speisekarte.csv", 
                             sep=";", 
                             index_col="Speise_ID",
                             decimal=".")
 
-# DataFrame für alle Bestellungen
+# DATAFRAME FÜR ALLE BESTELLUNGEN
 bestellungen_df = pd.DataFrame(columns=[
                                 "BestellID", 
                                 "Datum", 
@@ -86,12 +87,12 @@ def bestellung_bezahlen(bestellID, bestellungen_df = bestellungen_df, speisekart
             "Steuer(19%)": round(steuer, 2),
             "Bruttopreis": round(gesamt_brutto, 2),
         })
+    
     # Berechnet die Rechnung für jede Zeile in bestellung_details
     rechnung_df = bestellung_details.apply(berechne_rechnung, axis=1)
 
     # Gesamtbetrag in neue Zeile einfügen
-    letzte_zeile = rechnung_df.iloc[-1]
-
+ 
     neue_zeile_df = pd.DataFrame({
                     "BestellID": ["Gesamt"],
                     "Datum": [""],
@@ -102,11 +103,18 @@ def bestellung_bezahlen(bestellID, bestellungen_df = bestellungen_df, speisekart
                     "Steuer(19%)": [rechnung_df["Steuer(19%)"].sum()],
                     "Bruttopreis": [rechnung_df["Bruttopreis"].sum()]
                     })
-
+    
+    # neue Zeile zu DataFrame hinzufügen
     rechnung_df = pd.concat([rechnung_df, neue_zeile_df], ignore_index=True)
     
     return rechnung_df
 
+# FUNKTION BESTELLLISTE ALS CSV SPEICHERN und LADEN
+def bestellungen_speichern():
+    dateiname = "Bestellungen_" + datetime.now().strftime("%Y_%m_%d") + ".csv"
+    bestellungen_df.to_csv(dateiname, index=False)
+    print(f"DataFrame wurde unter dem Namen {dateiname} gespeichert.")
+    return dateiname
 
 # STREAMLIT APP
 def streamlit_app():
@@ -114,8 +122,7 @@ def streamlit_app():
     Definiert den Ablauf der App, sammelt die Eingaben und aktualisiert das DataFrame.
     
     """
-    #global bestellungen_df
-
+    
     # Leeres Dictionary zum Sammeln der Informationen
     # mit st.session_state wird jeder Zwischenstand gespeichert, 
     # sodass kein leeres Dictionary weiter gegeben wird
@@ -133,7 +140,11 @@ def streamlit_app():
             "Status"])
 
     # Titel für Speisekarte
-    st.title("Restaurant golden seagull")
+    st.title("Bestelltool 'Restaurant golden seagull'")
+
+    # Logo des Restuarant
+    image = Image.open("Logo.png")
+    st.image(image)
 
     # Speisekarte anzeigen
     st.subheader("Speisekarte")
@@ -173,7 +184,7 @@ def streamlit_app():
                 st.session_state.bestellungen_df, 
                 bestellstatus)
             st.write("Bestellung erfolgreich aufgenommen!")
-            # Leeren des dic: speise_mengen nach jeder Betellung
+            # Leeren des dic: speise_mengen nach jeder Bestellung
             st.session_state.speise_mengen = {}
         else:
             st.write("Bitte mindestens eine Speise hinzufügen.")
@@ -196,6 +207,7 @@ def streamlit_app():
             st.write("Bitte eine gültige BestellID auswählen.")
 
     st.subheader("Rechnung erstellen")
+
     # Auswahl der BestellID über Dropdown
     if st.button("Rechnung anzeigen"):
         if ausgewählte_bestellID:
@@ -204,10 +216,14 @@ def streamlit_app():
             st.dataframe(rechnung_df)
         else:
             st.write("Bitte eine gültige BestellID auswählen.")
+    
+    # Bestellliste als CSV abspeichern
+    if st.button("Bestellliste speichern"):
+        dateiname = bestellungen_speichern()
+        st.write(f"Die aktuelle Bestelliste wurde erfolgreich unter {dateiname} abgespeichert")
 
 if __name__ == "__main__":
     streamlit_app()
-
 
 
 # Ausführen des Skripts in Kommandozeile (Miniconda)
