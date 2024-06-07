@@ -1,40 +1,31 @@
-## Aufgabe 2 - Restaurant Bestelltool
+## Projektbeschreibung
 Das Restaurant “golden seagull” benötigt ein Programm zur Abwicklung von Bestellungen im
 Restaurant und beauftragt euch als selbstständiges, kleines Developer-Team mit der Entwicklung
-der Software. Zusammen habt ihr folgende Anforderungen ausformuliert:
+der Software. 
 
-a) Eine Speisekarte sollte im .csv Format abgelegt werden und als DataFrame eingelesen
-werden. Die Speisen-Nummer soll der Zeilen-Index sein. Mit einer Funktion soll die
-Speisekarte geladen werden. Mit einer anderen Funktion soll man auch die Speisekarte
-anzeigen können.
+## Erläuterung des Codes
 
-b) Die Liste der Bestellungen soll ebenfalls in einem DataFrame festgehalten werden. Jede
-Bestellung soll eine ID, ein Datum, eine Tischnummer, SpeiseID, Menge und Status
-enthalten. Man soll mit einer Funktion in der Lage sein, neue Bestellungen zu erzeugen, und
-dabei die Tischnummer sowie mehrere SpeiseIDs mit zugehörigen Mengen eingeben können.
-Das Datum, die ID, und der Status “offen” sollen beim Erstellen automatisch vergeben
-werden. Es soll durch die Erstell-Funktion ein DataFrame mit Zeilen für jede Speise der
-Bestellung erzeugt werden. Dieses DataFrame soll an die Gesamtliste der Bestellungen
-angefügt werden.
+#### Allgemeines
+Frameworks und Bibliotheken: Der Code nutzt Streamlit zur Erstellung einer Web-App, pandas zur Datenverarbeitung, datetime für Datumsoperationen und PIL zur Bildverarbeitung.
+Daten laden und initialisieren
+Speisekarte laden: Eine CSV-Datei Speisekarte.csv wird in ein DataFrame geladen, das die Gerichte und deren Preise enthält.
+Bestellungen DataFrame: Ein leeres DataFrame für alle Bestellungen wird initialisiert mit den Spalten "BestellID", "Datum", "Tischnummer", "SpeiseID", "Menge", und "Status".
+#### Funktionen
+Neue Bestellung: neue_bestellung fügt neue Bestellungen hinzu, indem es eine eindeutige BestellID generiert und die Bestelldaten in das DataFrame einfügt.
+Bestellung stornieren: bestellung_storno setzt den Status einer Bestellung auf "storno".
+Rechnung erstellen: bestellung_bezahlen setzt den Status einer Bestellung auf "bezahlt", berechnet die Nettopreise und die Mehrwertsteuer und erstellt ein DataFrame für die Rechnung.
+Bestellungen speichern: bestellungen_speichern speichert das Bestellungen-DataFrame als CSV-Datei.
+#### Streamlit App
+App-Titel und Bild: Der Titel "Restaurant Bestelltool" wird angezeigt und ein Bild der Speisekarte geladen.
+Bestellung aufgeben: Benutzer können eine Tischnummer, Bestellstatus, SpeiseID und Menge auswählen, um eine Bestellung aufzugeben.
+Bestellungen anzeigen: Eine Übersicht aller Bestellungen wird angezeigt.
+Bestellung stornieren: Benutzer können eine BestellID auswählen, um eine Bestellung zu stornieren.
+Rechnung erstellen: Benutzer können eine BestellID auswählen, um eine Rechnung anzuzeigen.
+Bestellungen speichern: Ein Button, um die aktuelle Bestellliste als CSV-Datei zu speichern.
+#### Besondere Hinweise
+Session State: Nutzung von st.session_state zur Speicherung von Bestellungen und Speisenmengen, um die Daten zwischen den Interaktionen zu behalten.
+UI-Elemente: Verschiedene Streamlit-Widgets wie selectbox, number_input, button und dataframe zur Interaktion mit dem Benutzer.
 
-c) Datenvalidierung ist hier sehr wichtig! Eine Funktion sollte Bestellungen prüfen, und True
-zurückgeben, wenn alle Gerichte in der Speisekarte sind, sonst False. Jede neue Bestellung
-sollte überprüft werden und Fehler entsprechend behandelt werden, bevor die neue
-Bestellung zur Gesamtliste hinzugefügt wird.
-
-d) Man soll per Funktion in der Lage sein, Bestellungen zu stornieren. Dabei soll der
-Bestellstatus in der Liste auf “storno” gesetzt werden.
-
-e) Mit einer Bezahlfunktion soll der Bestellstatus der Bestellung auf “Bezahlt” gesetzt werden
-und eine Rechnung auf dem Bildschirm ausgegeben werden. Die Rechnung umfasst die
-Gerichte, Nettopreis, Menge, MwSt., Bruttopreis, sowie evtl. Trinkgeld. Die Preise der
-Gerichte sollten aus der Speisekarten Datei erhältlich sein.
-Das bildet das Grundgerüst der Bestell-App. Arbeitet von grob nach fein – Das heißt arbeitet
-zunächst die grundlegende Datenstruktur und die essentiellsten Bearbeitungsfunktionen aus. Wie
-immer können beliebige Zusatzfunktionen und Details eingebaut werden (z.B. logging,
-Bestellhistorie, Bestellstatistiken, Umsatzzahlen…).
-Macht euch Gedanken über ein Interface, d.h. darüber, wie der Benutzer seine Daten eingeben soll.
-Z.b. über Menüschleife, Kommandozeile, GUI, Notebook oder Widgets.
-Als Abschluss-Präsentation eignen sich sowohl live Demonstrationen als auch PowerPoint Folien.
-Live Demonstrationen sollten spannend und interaktiv sein. Der Code soll nur in der groben
-Struktur und bei interessanten Details erklärt werden.
+#### Verwendung des Codes
+# Ausführen des Skripts über Kommandozeile (z.B.Miniconda)
+# streamlit run  "Dateipfad"

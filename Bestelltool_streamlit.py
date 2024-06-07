@@ -229,6 +229,6 @@ if __name__ == "__main__":
 
 
 # Ausführen des Skripts in Kommandozeile (Miniconda)
-# cd "C:\Users\Admin\Git\Praxisprojekt-Python-Bestelltool"
-# conda activate DataCraft
-# streamlit run  "C:\Users\Admin\Git\Praxisprojekt-Python-Bestelltool\Bestelltool_streamlit.py"
+# cd "PFAD"
+# conda activate "Umgebung"
+# streamlit run  "Datei"
