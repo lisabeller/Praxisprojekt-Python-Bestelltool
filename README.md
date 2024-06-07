@@ -25,3 +25,7 @@ Bestellungen speichern: Ein Button, um die aktuelle Bestellliste als CSV-Datei z
 #### Besondere Hinweise
 Session State: Nutzung von st.session_state zur Speicherung von Bestellungen und Speisenmengen, um die Daten zwischen den Interaktionen zu behalten.
 UI-Elemente: Verschiedene Streamlit-Widgets wie selectbox, number_input, button und dataframe zur Interaktion mit dem Benutzer.
+
+#### Verwendung des Codes
+# Ausführen des Skripts über Kommandozeile (z.B.Miniconda)
+# streamlit run  "Dateipfad"
