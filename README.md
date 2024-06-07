@@ -1,4 +1,4 @@
-## Projektarbeit
+## Projektbeschreibung
 Das Restaurant “golden seagull” benötigt ein Programm zur Abwicklung von Bestellungen im
 Restaurant und beauftragt euch als selbstständiges, kleines Developer-Team mit der Entwicklung
 der Software. 
