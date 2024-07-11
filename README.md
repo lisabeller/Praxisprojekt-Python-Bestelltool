@@ -27,5 +27,5 @@ Session State: Nutzung von st.session_state zur Speicherung von Bestellungen und
 UI-Elemente: Verschiedene Streamlit-Widgets wie selectbox, number_input, button und dataframe zur Interaktion mit dem Benutzer.
 
 #### Verwendung des Codes
-# Ausführen des Skripts über Kommandozeile (z.B.Miniconda)
-# streamlit run  "Dateipfad"
+Ausführen des Skripts über Kommandozeile (z.B.Miniconda)
+streamlit run  "Dateipfad"
